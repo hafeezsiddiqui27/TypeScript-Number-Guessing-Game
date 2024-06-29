@@ -3,7 +3,7 @@ import inquirer from "inquirer";
 import chalk from "chalk";
 //displayoing welcome message
 console.log(chalk.bold.yellow((`\n  \t\t <<<================================================>>>`)));
-console.log(chalk.bold.blue(`<<<=========>>>  ${chalk.blueBright.bold('Welcome To \'Hafeez Siddiqui\' - CLI Simple Calculator')}  <<<=========>>>`));
+console.log(chalk.bold.blue(`<<<=========>>>  ${chalk.blueBright.bold('Welcome To \'Hafeez Siddiqui\' - Number Guessing Game')}  <<<=========>>>`));
 console.log(chalk.bold.yellow(`\t\t <<<===============================================>>>\n`));
 const randomNumber = Math.floor(Math.random() * 5 + 1);
 const answers = await inquirer.prompt([
